@@ -69,7 +69,7 @@ export function WalletConnect() {
       {isDisconnected && (
         <div>
           <button 
-            onClick={() => open()} 
+            onClick={() => open(alert('test'))} 
             disabled={isConnecting}
             style={{
               padding: '12px 24px',
